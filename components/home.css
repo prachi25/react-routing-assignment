@@ -1,0 +1,48 @@
+@keyframes scroll {
+    0% {
+        transform: translate(-100%, 0)
+    }
+
+    100% {
+        transform: translate(0, 0)
+    }
+}
+
+.post {
+    margin: 50px 70px 30px 70px;
+    box-shadow: 10px 10px 10px rgba(66, 64, 64, 0.603);
+    border: 3px solid rgb(73, 70, 70);
+    justify-content: center;
+    display: flex;
+}
+
+.display1 {
+    display: block;
+}
+
+.display1 .post {
+    display: inline-block;
+}
+
+.text {
+    background: rgba(89,22,10, 0.5);
+    text-align: center;
+    padding: 10px;
+}
+
+.text .title1{
+    font-weight: bolder;
+    text-transform: uppercase;
+    font-family: sans-serif;
+}
+
+.text .body1 {
+    font-weight: bold;
+    text-transform: capitalize;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.nav-pills>.active>a,
+.nav-pills>.active>a:hover {
+    background-color: rgb(99, 76, 114);
+}

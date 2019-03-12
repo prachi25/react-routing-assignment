@@ -1,0 +1,75 @@
+.layout {
+    text-align: center;
+    width: 400px;
+    height: 340px;
+    margin: 40px auto;
+    padding: 40px;
+    background: url('../IMG_20180628_162217.jpg');
+    background-repeat: no-repeat;
+    background-size: 480px 420px;
+    border-radius: 10%;
+    border: 1px solid rgb(73, 70, 70);
+    box-shadow: 20px 20px 20px rgb(128, 122, 122);
+}
+
+.display-card {
+    text-align: center;
+    width: 400px;
+    height: 340px;
+    margin: 20px auto;
+    padding: 40px;
+    background: url('../IMG_20180628_162217.jpg');
+    background-repeat: no-repeat;
+    background-size: 500px 430px;
+    border-radius: 10%;
+    border: 1px solid rgb(73, 70, 70);
+    box-shadow: 20px 20px 20px rgb(128, 122, 122);
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.layout1 input {
+    width: 300px;
+    height: 40px;
+    font-size: 20px;
+    border: 1px solid lightgreen;
+    padding: 10px;
+}
+
+.layout1 textarea {
+    border: 1px solid lightgreen;
+
+}
+
+.layout button {
+    border: 1px solid lightgreen;
+}
+
+.display-card p:nth-child(1) {
+    font-weight: bolder;
+    font-size: 40px;
+    font-family: 'Sniglet';
+    text-transform: uppercase;
+}
+
+.display-card p:nth-child(2) {
+    font-weight: bold;
+    font-size: 30px;
+    font-family: 'Sniglet';
+    text-transform: capitalize;
+}
+
+.display-card p:nth-child(3) {
+    font-family: 'Sniglet';
+    font-weight: bold;
+    text-transform: capitalize;
+    font-size: 30px;
+}
+
+::placeholder {
+    font-size: 20px;
+}
